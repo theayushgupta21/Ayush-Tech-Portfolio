@@ -556,7 +556,7 @@ export default function ContactFooter() {
                                                 }}
                                                 onClick={resetPuzzle}
                                                 className="
-                                                    text-[10px]
+                                                    text-[15px]
                                                     font-semibold
                                                     text-green-600
                                                     hover:text-green-700
@@ -826,7 +826,7 @@ export default function ContactFooter() {
                                                 block
                                                 text-xs
                                                 font-semibold
-                                                text-gray-700
+                                                text-gray-900
                                             "
                                         >
                                             Name
@@ -1015,7 +1015,7 @@ export default function ContactFooter() {
                                     </motion.button>
 
                                     {!puzzleSolved && (
-                                        <p className="text-center text-[10px] text-gray-400">
+                                        <p className="text-center text-[15px] text-gray-600">
                                             Complete the scribble puzzle to
                                             unlock the button.
                                         </p>
